@@ -12,11 +12,17 @@ import mindustry.ui.dialogs.*;
 public class ExampleJavaMod extends Mod{
 
     public ExampleJavaMod(){
-        load();  
+        loadContent();  
     }
 
     @Override
     public void loadContent(){
+        
+    }
+}
+public class CustomItems implements ContentList {
+    @override
+    public void load() {
         
     }
 }
