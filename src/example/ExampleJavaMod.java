@@ -27,6 +27,6 @@ public class CustomItems implements ContentList {
         sodium = new Item("sodium",Color.valueOf("f5fffa")){{
             cost = 0.3f;
             alwaysUnlocked = true;
-        }}
+        }};
     }
 }
