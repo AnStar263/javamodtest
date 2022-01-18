@@ -21,8 +21,12 @@ public class ExampleJavaMod extends Mod{
     }
 }
 public class CustomItems implements ContentList {
+    public static Item sodium;
     @override
     public void load() {
-        
+        sodium = new Item("sodium",Color.valueOf("f5fffa")){{
+            cost = 0.3f;
+            alwaysUnlocked = true;
+        }}
     }
 }
