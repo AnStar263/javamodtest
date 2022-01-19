@@ -67,6 +67,7 @@ import mindustry.ui.dialogs.*;
 
 import java.util.*;
 
+import galaxy.contents.items.*;
 
 public class Galaxy extends Mod{
     public Galaxy ()
@@ -80,6 +81,7 @@ public class Galaxy extends Mod{
     @Override
     public void loadContent()
 	{
+	  new GItems().load();
 	  /*new QUItems().load();
 	  new QUFx().load();
 	  new QUBullets().load();
