@@ -67,7 +67,7 @@ import mindustry.ui.dialogs.*;
 
 import java.util.*;
 
-//导入模组内容
+
 public class Galaxy extends Mod{
     public Galaxy ()
 	{
