@@ -1,4 +1,4 @@
-package contents.items;
+package galaxy.contents.items;
 import mindustry.content.*;
 import arc.graphics.*;
 import mindustry.ctype.*;
