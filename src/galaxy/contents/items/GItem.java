@@ -4,7 +4,7 @@ import mindustry.ctype.*;
 import mindustry.type.*;
 public class GItem extends Item {
   public double newEnergy = 20;
-  public GItem() {
+  public GItem(String s) {
     String str = "newEnergy: " + newEnergy;
     description += str;  
   }
