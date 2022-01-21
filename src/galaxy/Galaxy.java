@@ -82,16 +82,7 @@ public class Galaxy extends Mod{
     public void loadContent()
 	{
 	  new GItems().load();
-	  /*new QUItems().load();
-	  new QUFx().load();
-	  new QUBullets().load();
-	  new QUTurrets().load();
-	  new QUFactories().load();
-	  new QULargeMachinery().load();
-	  new QULargeTurret().load();
-	  new QUWalls().load();
-	  new QUPlanets().load();
-*/
+	  new GFx().load();
     }
 	
 }
