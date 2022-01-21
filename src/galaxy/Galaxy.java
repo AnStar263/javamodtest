@@ -68,6 +68,7 @@ import mindustry.ui.dialogs.*;
 import java.util.*;
 
 import galaxy.contents.items.*;
+import galaxy.contents.GFx.*;
 
 public class Galaxy extends Mod{
     public Galaxy ()
