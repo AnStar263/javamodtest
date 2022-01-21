@@ -1,4 +1,4 @@
-package contents.items;
+package galaxy.contents.items;
 
 import mindustry.ctype.*;
 import mindustry.type.*;
