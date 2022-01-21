@@ -1,5 +1,5 @@
 package galaxy.contents.items;
-import galaxy.contents.*;
+import galaxy.contents.items.*;
 import mindustry.content.*;
 import arc.graphics.*;
 import mindustry.ctype.*;
