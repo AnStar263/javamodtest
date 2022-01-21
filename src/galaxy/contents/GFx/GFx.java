@@ -5,7 +5,7 @@ import mindustry.ctype.*;
 public class GFx implements ContentList {
   public Effect Radiate;
   @override
-  public load() {
+  public void load() {
     Radiate = new Effect(99999f,e -> {
     
     });
