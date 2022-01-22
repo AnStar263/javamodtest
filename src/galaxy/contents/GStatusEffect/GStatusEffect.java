@@ -21,8 +21,8 @@ public class GStatusEffect implements ContentList {
                     result.set(this, time);
                 }));
                 opposite(unRadiating);
-            });
-    }};*/
+            });*/
+    }};
     unRadiating = new StatusEffect("unRadiating") {{
       damage = 0.10f;
       effectChance =1f;
@@ -36,7 +36,7 @@ public class GStatusEffect implements ContentList {
                     result.set(this, time);
                 }));
                 opposite(Radiating);
-            });
-    }};*/
+            });*/
+    }};
   }
 }
