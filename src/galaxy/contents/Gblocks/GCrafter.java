@@ -10,6 +10,6 @@ public class GCrafter implements ContentList {
   public void load() {
        blastFurnace = new GenericSmelter("blastFurnace") {
        
-       }
+       };
   }
 }
