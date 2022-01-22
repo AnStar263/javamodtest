@@ -4,7 +4,7 @@ import mindustry.entities.*;
 import mindustry.ctype.*;
 import mindustry.type.*;
 import mindustry.content.*;
-import mindustry.world.*;
+import mindustry.world.blocks.production.*;
 public class GCrafter implements ContentList {
   public static GenericSmelter blastFurnace;
   public void load() {
