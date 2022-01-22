@@ -1,8 +1,42 @@
-package galaxy.contents.GFx;
+package galaxy.contents.GStatusEffect;
 
 import mindustry.entities.*;
-public class GFx {
-  public static final Effect Radiate = new Effect(99999f,e -> {
-    
-  });
+import mindustry.type.*;
+import mindustry.entities.*;
+
+import galaxy.contents.GFx.*;
+public class GStatusEffect implements ContentList {
+  public static StatusEffect Radiating,unRadiating;
+  public void load() {
+    Radiating = new StatusEffect("Radiating") {{
+      damage = 0.10f;
+      effectChance =1f;
+      effect = radiate;
+      /*init(() -> {
+                trans(shocked, ((unit, time, newTime, result) -> {
+                    unit.damagePierce(20f);
+                    if(unit.team() == state.rules.waveTeam){
+                        Events.fire(Trigger.shock);
+                    }
+                    result.set(this, time);
+                }));
+                opposite(unRadiating);
+            });
+    }};*/
+    unRadiating = new StatusEffect("unRadiating") {{
+      damage = 0.10f;
+      effectChance =1f;
+      effect = radiate;
+      /*init(() -> {
+                trans(shocked, ((unit, time, newTime, result) -> {
+                    unit.damagePierce(20f);
+                    if(unit.team() == state.rules.waveTeam){
+                        Events.fire(Trigger.shock);
+                    }
+                    result.set(this, time);
+                }));
+                opposite(Radiating);
+            });
+    }};*/
+  }
 }
