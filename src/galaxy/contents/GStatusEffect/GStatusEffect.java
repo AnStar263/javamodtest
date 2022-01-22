@@ -13,7 +13,7 @@ public class GStatusEffect implements ContentList {
     Radiating = new StatusEffect("Radiating") {{
       damage = 0.10f;
       effectChance =1f;
-      effect = Radiate;
+      effect = GFx.Radiate;
       /*init(() -> {
                 trans(shocked, ((unit, time, newTime, result) -> {
                     unit.damagePierce(20f);
@@ -28,7 +28,7 @@ public class GStatusEffect implements ContentList {
     unRadiating = new StatusEffect("unRadiating") {{
       damage = 0.10f;
       effectChance =1f;
-      effect = Radiate;
+      effect = GFx.Radiate;
       /*init(() -> {
                 trans(shocked, ((unit, time, newTime, result) -> {
                     unit.damagePierce(20f);
