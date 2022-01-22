@@ -69,7 +69,7 @@ import java.util.*;
 
 import galaxy.contents.items.*;
 import galaxy.contents.GFx.*;
-import galaxy.contents.GStatuEffect.*;
+import galaxy.contents.GStatusEffect.*;
 
 public class Galaxy extends Mod{
     public Galaxy ()
@@ -85,7 +85,7 @@ public class Galaxy extends Mod{
 	{
 	  new GItems().load();
 	  new GFx().load();
-	  new GStatuEffect().load();
+	  new GStatusEffect().load();
     }
 	
 }
