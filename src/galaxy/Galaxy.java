@@ -70,7 +70,7 @@ import java.util.*;
 import galaxy.contents.items.*;
 import galaxy.contents.GFx.*;
 import galaxy.contents.GStatusEffect.*;
-import galaxy.contents.GCrafter.*;
+import galaxy.contents.Gblocks.*;
 public class Galaxy extends Mod{
     public Galaxy ()
 	{
