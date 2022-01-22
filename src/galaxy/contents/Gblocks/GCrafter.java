@@ -1,8 +1,15 @@
-package galaxy.contents.GFx;
+package galaxy.contents.Gblocks;
 
 import mindustry.entities.*;
-public class GFx {
-  public static final Effect Radiate = new Effect(99999f,e -> {
-    
-  });
+import mindustry.ctype.*;
+import mindustry.type.*;
+import mindustry.content.*;
+import mindustry.world.*;
+public class GCrafter implements ContentList {
+  public static GenericSmelter blastFurnace;
+  public void load() {
+       blastFurnace = new GenericSmelter("blastFurnace") {
+       
+       }
+  }
 }
