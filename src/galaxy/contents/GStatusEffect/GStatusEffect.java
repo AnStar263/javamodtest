@@ -3,8 +3,10 @@ package galaxy.contents.GStatusEffect;
 import mindustry.entities.*;
 import mindustry.type.*;
 import mindustry.entities.*;
+import mindustry.ctype.*;
 
 import galaxy.contents.GFx.*;
+
 public class GStatusEffect implements ContentList {
   public static StatusEffect Radiating,unRadiating;
   public void load() {
